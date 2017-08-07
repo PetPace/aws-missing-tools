@@ -1,4 +1,4 @@
-#!/bin/bash -
+#!/bin/bash
 # Date: 2015-10-26
 # Version 0.10
 # License Type: GNU GENERAL PUBLIC LICENSE, Version 3
