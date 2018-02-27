@@ -7,7 +7,7 @@ rm -f /var/tmp/aws-mon/instance-id
 
 echo "getting pre-requisites..."
 sudo apt-get update
-sudo apt-get install libwww-perl libdatetime-perl
+sudo apt-get --assume-yes install libwww-perl libdatetime-perl
 
 echo "backup crontab..."
 sudo crontab -l >> aws-auto-setup-crontab.backup
